@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>004z</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "004" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "005" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeypress="return navigate(event)">
+<pre>
+                          In the Beginning
+     
+     * IBM
+     * SPUG
+     * Inline.pm
+     
+     Inline::ASM Inline::Awk Inline::BC Inline::Basic
+     Inline::Befunge Inline::C Inline::CPP Inline::CPR
+     Inline::Echo Inline::Files Inline::Filters
+     Inline::Flex Inline::Foo Inline::Guile
+     Inline::Interp Inline::Java Inline::Lua
+     Inline::MakeMaker Inline::MakePdlppInstallables
+     Inline::Mason Inline::Module Inline::MonoCS
+     Inline::MzScheme Inline::Nouse Inline::Octave
+     Inline::Pdlpp Inline::Perl Inline::Pugs
+     Inline::Python Inline::Rakudo Inline::Ruby
+     Inline::SLang Inline::SMITH Inline::Select
+     Inline::Spew Inline::Struct Inline::TT Inline::Tcl
+     Inline::WSC Inline::WebChat Inline::Wrapper
+     Inline::XSH Inline::YAML
+
+
+
+</pre>
+</body>

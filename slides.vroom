@@ -46,8 +46,21 @@ Including this Talk!!
 * SPUG
 * Inline.pm
 
-+
-Inline::ASM Inline::Awk Inline::BC Inline::Basic Inline::Befunge Inline::C Inline::CPP Inline::CPR Inline::Echo Inline::Files Inline::Filters Inline::Flex Inline::Foo Inline::Guile Inline::Interp Inline::Java Inline::Lua Inline::MakeMaker Inline::MakePdlppInstallable Inline::Mason Inline::Module Inline::MonoCS Inline::MzScheme Inline::Nouse Inline::Octave Inline::Pdlpp Inline::Perl Inline::Pugs Inline::Python Inline::Rakudo Inline::Ruby Inline::SLang Inline::SMITH Inline::Select Inline::Spew Inline::Struct Inline::TT Inline::Tcl Inline::WSC Inline::WebChat Inline::Wrapper Inline::XSH Inline::YAML
++Inline::ASM Inline::Awk Inline::BC Inline::Basic
+Inline::Befunge Inline::C Inline::CPP Inline::CPR
+Inline::Echo Inline::Files Inline::Filters
+Inline::Flex Inline::Foo Inline::Guile
+Inline::Interp Inline::Java Inline::Lua
+Inline::MakeMaker Inline::MakePdlppInstallables
+Inline::Mason Inline::Module Inline::MonoCS
+Inline::MzScheme Inline::Nouse Inline::Octave
+Inline::Pdlpp Inline::Perl Inline::Pugs
+Inline::Python Inline::Rakudo Inline::Ruby
+Inline::SLang Inline::SMITH Inline::Select
+Inline::Spew Inline::Struct Inline::TT Inline::Tcl
+Inline::WSC Inline::WebChat Inline::Wrapper
+Inline::XSH Inline::YAML
+
 ----
 == YAML YAML YAML
 
@@ -344,9 +357,14 @@ C'Dent lets you compile modules to:
 
 +* PHP
 * Java
+* Scala
 * Python 3
 * Perl 6
+* ActionScript
 * Go
+* PIR
+
++* and C'Dent!
 
 ----
 == Object Oriented Hello, world
@@ -373,10 +391,13 @@ C'Dent lets you compile modules to:
 > cdent --compile --in=world.py --out=php
 > cdent --compile --in=world.py --out=py
 > cdent --compile --in=world.py --out=java
-
-+> cdent --compile --in=world.py --out=pm6
+> cdent --compile --in=world.py --out=pm6
 > cdent --compile --in=world.py --out=py3
 > cdent --compile --in=world.py --out=go
+> cdent --compile --in=world.py --out=as
+> cdent --compile --in=world.py --out=scala
+> cdent --compile --in=world.py --out=pir
+> cdent --compile --in=world.py --out=cd.yaml
 
 ----
 == How C'Dent works (Step 1)

@@ -322,6 +322,18 @@ This is a module that Miyagawa stole from the Beatles...
 +* This is why I started C'Dent!!
 
 ----
+== C'Dent Lives!
+
+    > cat tests/modules/world.cd.py
++    | cdent --compile --from=cd.py --to=js
++    | cdent --compile --from=cd.js --to=pm6
++    | cdent --compile --from=cd.pm6 --to=pir
++    | cdent --compile --from=cd.pir --to=cd.yaml
++    | cdent --compile --from=cd.yaml --to=py
++    > new.py
+    diff tests/modules/world.cd.py new.py
+
+----
 == What is C'Dent?
 
 * C'Dent is a "Portable Module Language"
